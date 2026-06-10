@@ -42,4 +42,6 @@ st.write(f"Duplicate Rows Count : {dupl_df}")
 
 if st.button("Next Page"):
        st.switch_page("pages/page2.py")
+    
+    
 
