@@ -50,7 +50,7 @@ if uploadfile is not None:
             st.success("Dataset submitted successfully ✅")
             time.sleep(1)
 
-            st.switch_page("pages/page1.py")
+            st.switch_page("page1.py")
 
     except Exception as e:
         st.error(f"Error loading file: {e}")
